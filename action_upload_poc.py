@@ -57,7 +57,7 @@ def test(host):
         req2 = requests.get(url2,timeout=3, verify=False)
         if req2.status_code == 200:
             print(host+"存在通达OA2017 action_upload.php任意文件上传漏洞")
-            print("返回路径：" + url2)
+            print("返回路径：" + url2+'\n')
         else:
             print(host + " 不存在通达OA2017 action_upload.php任意文件上传漏洞")
     except Exception as e:
